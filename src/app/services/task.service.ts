@@ -15,7 +15,7 @@ const httpOptions = {headers : new HttpHeaders({
 })
 export class TaskService {
 
-  private apiUrl = 'http://localhost:3000/tasks'
+  private apiUrl = 'https://my-json-server.typicode.com/KarimSalah26/taskTrack/tasks'
 
   
   constructor(private http: HttpClient) { }
